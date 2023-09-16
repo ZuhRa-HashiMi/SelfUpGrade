@@ -126,3 +126,62 @@
     color: #5e5b5b; /* Set the text color */
     font-weight: 500;
 }
+
+/* ... */
+.features-section {
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature {
+    width: 100%;
+    position: relative;
+    margin: 0 40px; /* Add margin to create space between images */
+}
+
+.feature img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+.feature-text {
+    position: absolute;
+    top: 5%; /* Adjust the top value to create space from the top */
+    width: 100%;
+    margin: 30px;
+    height: calc(100% - 10px); /* Adjust the height to account for top and bottom padding */
+    padding: 40px;
+}
+
+.feature h2 {
+    font-size: 60px; /* Increase the font size */
+    font-weight: 700;
+    color: rgb(58, 56, 56);
+    margin: 0; /* Remove margin to eliminate extra space */
+}
+
+.feature p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(102, 100, 100);
+    margin-bottom: 40px;
+}
+
+.sign-up-button,
+.get-certificate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(252, 252, 34);
+    color: rgb(73, 63, 44);
+    border: rgb(73, 63, 44) solid 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
