@@ -98,3 +98,31 @@
       font-weight: bold;
       cursor: pointer;
   }
+
+
+  /* New Section */
+
+  /* Style for the new section */
+.main-section {
+    background-color: white; /* Set the background color for the section */
+    padding: 60px 0; /* Add some padding for spacing */
+    text-align: center; /* Center align the content */
+}
+
+.centered-text {
+  
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.centered-text h1 {
+    font-size: 35px; /* Adjust the font size for the heading */
+    font-weight: 700;
+    color: rgb(58, 56, 56);
+    white-space: nowrap; /* Prevent text from breaking */
+}
+
+.centered-text p {
+    font-size: 17px; /* Adjust the font size for the paragraph */
+    color: #5e5b5b; /* Set the text color */
+    font-weight: 500;
+}
