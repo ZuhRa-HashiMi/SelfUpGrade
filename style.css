@@ -184,4 +184,43 @@
     transition: background-color 0.3s ease;
 }
 
+/* Style for the benefits section */
+.benefits-section {
+    background-color: rgb(253, 247, 247);
+    padding: 60px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Style for each benefit item */
+.benefit {
+    display: flex;
+    align-items: center; /* Center icon and title vertically */
+    text-align: center;
+    margin: 10px; /* Add space between benefit items */
+}
+
+/* Style for the circle icon background */
+.icon-container {
+    background-color: rgb(160, 214, 228);
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 5px; /* Add space between icon and title */
+}
+
+/* Style for the icons */
+.fas {
+    font-size: 24px;
+    color: rgb(74, 110, 226);
+}
+
+/* Style for the benefit titles */
+h3 {
+    font-size: 16px;
+    color: rgb(56, 54, 54);
+    font-weight: 600;
+    margin: 0; /* Remove margin to eliminate extra spacing */
+}
 
