@@ -1,315 +1,334 @@
-    /* Add your CSS styles here */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-  }
+/* Add your CSS styles here */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    background-color: #fafafa;
+}
 
-  header {
-      background-color: white;
-      color: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 50px;
-  }
+header {
+	/* background-color: white; */
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+}
 
-  .logo {
-      display: flex;
-      align-items: center;
-  }
+.logo {
+	display: flex;
+	align-items: center;
+}
 
-  .logo img {
-      height: 35px; /* Adjust the height as needed */
-      margin-right: 10px;
-  }
+.logo img {
+	height: 35px; /* Adjust the height as needed */
+	margin-right: 10px;
+}
 
-  .logo h1 {
-      font-size: 30px;
-      margin: 0;
-  }
-  .search {
-    flex: 1;
-    margin: 0 60px;
-    position: relative;
- 
+.logo h1 {
+	font-size: 30px;
+	margin: 0;
+}
+.search {
+	flex: 1;
+	margin: 0 60px;
+	position: relative;
 }
 
 .search-input {
-    display: flex;
-    align-items: center;
-  
+	display: flex;
+	align-items: center;
 }
 
 .search input[type="text"] {
-    width: 100%; 
-    padding: 10px 10px 10px 20px;
-    border: rgb(219, 213, 213) solid 1px;
-    border-radius: 20px;
-    position: relative;
-
+	width: 100%;
+	padding: 10px 10px 10px 20px;
+	border: rgb(219, 213, 213) solid 1px;
+	border-radius: 20px;
+	position: relative;
 }
 
 .search i {
-    position: absolute;
-    top: 50%;
-    right: 20px; 
-    transform: translateY(-50%);
-    color: black;
-    z-index: 2; 
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	color: black;
+	z-index: 2;
 }
 
+nav {
+	display: flex;
+	align-items: center;
+}
 
-  nav {
-      display: flex;
-      align-items: center;
-  }
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
 
-  nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-  }
+nav li {
+	margin-right: 70px;
+}
 
-  nav li {
-      margin-right: 70px;
-  }
+nav a {
+	text-decoration: none;
+	color: rgb(134, 132, 132);
+	font-size: 14px;
+	font-weight: 600;
+}
 
-  nav a {
-      text-decoration: none;
-      color: rgb(134, 132, 132);
-      font-size: 14px;
-      font-weight: 600;
-  }
+.icon {
+	font-size: 24px;
+	margin-right: 30px;
+	color: black;
+}
 
-  .icon {
-      font-size: 24px;
-      margin-right: 30px;
-      color: black;
-  }
+.logo-button {
+	/* background-color: #fff; */
+	color: rgb(0, 102, 255);
+	padding: 10px 40px;
+	border: rgb(0, 102, 255) solid 1px;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
 
-  .logo-button {
-      background-color: #fff;
-      color: rgb(0, 102, 255);
-      padding: 10px 40px;
-      border: rgb(0, 102, 255) solid 1px;
-      border-radius: 20px;
-      font-weight: bold;
-      cursor: pointer;
-  }
+/* New Section */
 
-
-  /* New Section */
-
-  /* Style for the new section */
+/* Style for the new section */
 .main-section {
-    background-color: white; /* Set the background color for the section */
-    padding: 60px 0; /* Add some padding for spacing */
-    text-align: center; /* Center align the content */
+	/* background-color: white; Set the background color for the section */
+	padding: 60px 0; /* Add some padding for spacing */
+	text-align: center; /* Center align the content */
 }
 
 .centered-text {
-  
-    margin: 0 auto; /* Center the content horizontally */
+	margin: 0 auto; /* Center the content horizontally */
 }
 
 .centered-text h1 {
-    font-size: 35px; /* Adjust the font size for the heading */
-    font-weight: 700;
-    color: rgb(58, 56, 56);
-    white-space: nowrap; /* Prevent text from breaking */
+	font-size: 35px; /* Adjust the font size for the heading */
+	font-weight: 700;
+	color: rgb(58, 56, 56);
+	white-space: nowrap; /* Prevent text from breaking */
 }
 
 .centered-text p {
-    font-size: 17px; /* Adjust the font size for the paragraph */
-    color: #5e5b5b; /* Set the text color */
-    font-weight: 500;
+	font-size: 17px; /* Adjust the font size for the paragraph */
+	color: #5e5b5b; /* Set the text color */
+	font-weight: 500;
 }
 
 /* ... */
 .features-section {
-    background-color: white;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	/* background-color: white; */
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .feature {
-    width: 100%;
-    position: relative;
-    margin: 0 40px; /* Add margin to create space between images */
+	width: 100%;
+	position: relative;
+	margin: 0 40px; /* Add margin to create space between images */
 }
 
 .feature img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block;
-    padding: 20px;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	padding: 20px;
 }
 
 .feature-text {
-    position: absolute;
-    top: 5%; /* Adjust the top value to create space from the top */
-    height: calc(100% - 10px); /* Adjust the height to account for top and bottom padding */
-    padding: 40px;
+	position: absolute;
+	top: 5%; /* Adjust the top value to create space from the top */
+	height: calc(
+		100% - 10px
+	); /* Adjust the height to account for top and bottom padding */
+	padding: 40px;
 }
 
 .feature h2 {
-    font-size: 60px; /* Increase the font size */
-    font-weight: 700;
-    color: rgb(58, 56, 56);
-    margin: 0; /* Remove margin to eliminate extra space */
+	font-size: 60px; /* Increase the font size */
+	font-weight: 700;
+	color: rgb(58, 56, 56);
+	margin: 0; /* Remove margin to eliminate extra space */
 }
 
 .feature p {
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(102, 100, 100);
-    margin-bottom: 40px;
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(102, 100, 100);
+	margin-bottom: 40px;
 }
 
 .sign-up-button,
 .get-certificate-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: rgb(252, 252, 34);
-    color: rgb(73, 63, 44);
-    border: rgb(73, 63, 44) solid 1px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: rgb(252, 252, 34);
+	color: rgb(73, 63, 44);
+	border: rgb(73, 63, 44) solid 1px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
 /* Style for the benefits section */
 .benefits-section {
-    background-color: white;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    width: 90%;
 }
 
 /* Style for each benefit item */
 .benefit {
-    display: flex;
-    align-items: center; /* Center icon and title vertically */
-    text-align: center;
-    margin: 10px; /* Add space between benefit items */
+	display: flex;
+	align-items: center; /* Center icon and title vertically */
+	text-align: center;
+	margin: 10px; /* Add space between benefit items */
 }
 
 /* Style for the circle icon background */
 .icon-container {
-    background-color: rgb(160, 214, 228);
-    border-radius: 50%;
-    padding: 8px;
-    margin-right: 5px; /* Add space between icon and title */
+	background-color: rgb(160, 214, 228);
+	border-radius: 50%;
+	padding: 8px;
+	margin-right: 5px; /* Add space between icon and title */
 }
 
 /* Style for the icons */
 .icon {
-    font-size: 24px;
-    color: rgb(0, 97, 153);
+	font-size: 24px;
 }
 
 /* Style for the benefit titles */
 h3 {
-    font-size: 16px;
-    color: rgb(58, 56, 56);
-    font-weight: 600;
-    margin: 0; /* Remove margin to eliminate extra spacing */
+	font-size: 16px;
+	color: rgb(58, 56, 56);
+	font-weight: 600;
+	margin: 0; /* Remove margin to eliminate extra spacing */
 }
 
 /* Style for the slideshow section */
 .slideshow-section {
-    background-color: #f5f5f5;
-    padding: 20px 0;
+	background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 24px;
 }
 
 /* Style for the slideshow container */
 .slideshow-container {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-    border: solid black 1px;
+	position: relative;
+	min-width: 700px;
+	margin: 0 auto;
+	padding: 24px;
 }
 
 /* Style for each slide */
 .slide {
-    text-align: left;
-    padding: 20px 20px;
-    margin-bottom: 20px;
+	text-align: left;
 }
-
-
-
 
 /* Style for the slide text */
 .slide-text {
-    display: flex; /* Use flex to align items horizontally */
-    align-items: center; /* Vertically center align items */
-    justify-content: space-between; /* Add space between text and testimonial */
-    font-size: 10px;
-    color: rgb(73, 71, 71);
-    font-weight: 200;
-    margin: 0;
+	display: flex;
+	justify-content: space-evenly;
+	color: rgb(73, 71, 71);
+	margin: 0;
 }
 
 /* Style for the testimonial section */
 .testimonial {
-    display: flex;
-    align-items: center; /* Vertically center align items */
+	display: flex;
+	justify-content: center;
+	align-items: center; /* Vertically center align items */
+    width: 100%;
 }
 
 /* Style for the testimonial image */
 .testimonial img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 80px; /* Adjust margin to create space between image and text */
-
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+    margin-bottom: 1rem;
 }
 
 /* Style for the testimonial info */
 .testimonial-info {
-    text-align: right; /* Right-align the testimonial info */
-}
-
-.testimonial-info h3{
-
-
+	text-align: center;
 }
 
 /* Style for the arrow icons */
 .slide-arrows {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    font-size: 24px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	font-size: 24px;
 }
 
 /* Style for the arrow icons */
 .slide-arrows i {
-    cursor: pointer;
-    background-color: #000;
-    color: #fff;
-    padding: 5px 10px;
-    margin: 0 10px;
-    border-radius: 50%;
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 0 10px;
+	border-radius: 50%;
 }
 
 /* Style for the left arrow */
 .slide-arrows i:first-child {
-    float: left;
-    margin-left: 0;
-    
+	float: left;
+	margin-left: -42px;
 }
 
 /* Style for the right arrow */
 .slide-arrows i:last-child {
-    float: right;
-    margin-right: 0;
+	float: right;
+	/* margin-right: 0; */
+}
+
+/* footer styling */
+
+footer {
+    padding: 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 6rem;
+}
+
+h2 {
+    color: rgb(32, 57, 183);
+}
+
+h4 {
+    color: rgb(24, 24, 69);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: gray;
+}
+
+li {
+    margin: 16px 0;
+    font-size: 14px;
 }
