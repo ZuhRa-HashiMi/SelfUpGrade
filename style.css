@@ -1,4 +1,3 @@
-/* Add your CSS styles here */
 body {
 	margin: 0;
 	padding: 0;
@@ -10,7 +9,6 @@ body {
 }
 
 header {
-	/* background-color: white; */
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
@@ -24,7 +22,7 @@ header {
 }
 
 .logo img {
-	height: 35px; /* Adjust the height as needed */
+	height: 35px; 
 	margin-right: 10px;
 }
 
@@ -90,7 +88,6 @@ nav a {
 }
 
 .logo-button {
-	/* background-color: #fff; */
 	color: rgb(0, 102, 255);
 	padding: 10px 40px;
 	border: rgb(0, 102, 255) solid 1px;
@@ -99,35 +96,31 @@ nav a {
 	cursor: pointer;
 }
 
-/* New Section */
-
-/* Style for the new section */
+/* Style for the Main Section */
 .main-section {
-	/* background-color: white; Set the background color for the section */
-	padding: 60px 0; /* Add some padding for spacing */
-	text-align: center; /* Center align the content */
+	padding: 60px 0;
+	text-align: center; 
 }
 
 .centered-text {
-	margin: 0 auto; /* Center the content horizontally */
+	margin: 0 auto; 
 }
 
 .centered-text h1 {
-	font-size: 35px; /* Adjust the font size for the heading */
+	font-size: 35px; 
 	font-weight: 700;
 	color: rgb(58, 56, 56);
-	white-space: nowrap; /* Prevent text from breaking */
+	white-space: nowrap; 
 }
 
 .centered-text p {
-	font-size: 17px; /* Adjust the font size for the paragraph */
-	color: #5e5b5b; /* Set the text color */
+	font-size: 17px; 
+	color: #5e5b5b;
 	font-weight: 500;
 }
 
-/* ... */
+/* Style for the Multimedia Section */
 .features-section {
-	/* background-color: white; */
 	padding: 20px 0;
 	display: flex;
 	justify-content: space-between;
@@ -136,7 +129,7 @@ nav a {
 .feature {
 	width: 100%;
 	position: relative;
-	margin: 0 40px; /* Add margin to create space between images */
+	margin: 0 40px; 
 }
 
 .feature img {
@@ -149,18 +142,18 @@ nav a {
 
 .feature-text {
 	position: absolute;
-	top: 5%; /* Adjust the top value to create space from the top */
+	top: 5%; 
 	height: calc(
 		100% - 10px
-	); /* Adjust the height to account for top and bottom padding */
+	); 
 	padding: 40px;
 }
 
 .feature h2 {
-	font-size: 60px; /* Increase the font size */
+	font-size: 60px;
 	font-weight: 700;
 	color: rgb(58, 56, 56);
-	margin: 0; /* Remove margin to eliminate extra space */
+	margin: 0;
 }
 
 .feature p {
@@ -182,53 +175,50 @@ nav a {
 	transition: background-color 0.3s ease;
 }
 
-/* Style for the benefits section */
+/* Style for the Statistic Section */
 .benefits-section {
 	padding: 20px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+	flex-wrap: wrap; 
     width: 90%;
 }
 
-/* Style for each benefit item */
 .benefit {
 	display: flex;
-	align-items: center; /* Center icon and title vertically */
+	align-items: center; 
 	text-align: center;
-	margin: 10px; /* Add space between benefit items */
+	margin: 10px; 
 }
 
-/* Style for the circle icon background */
+
 .icon-container {
 	background-color: rgb(160, 214, 228);
 	border-radius: 50%;
 	padding: 8px;
-	margin-right: 5px; /* Add space between icon and title */
+	margin-right: 5px;
 }
 
-/* Style for the icons */
 .icon {
 	font-size: 24px;
 }
 
-/* Style for the benefit titles */
 h3 {
 	font-size: 16px;
 	color: rgb(58, 56, 56);
 	font-weight: 600;
-	margin: 0; /* Remove margin to eliminate extra spacing */
+	margin: 0; 
 }
 
-/* Style for the slideshow section */
+/* Style for the Slideshow Section */
 .slideshow-section {
 	background-color: #fff;
     border: 1px solid #ddd;
     margin: 24px;
 }
 
-/* Style for the slideshow container */
+
 .slideshow-container {
 	position: relative;
 	min-width: 700px;
@@ -236,12 +226,10 @@ h3 {
 	padding: 24px;
 }
 
-/* Style for each slide */
 .slide {
 	text-align: left;
 }
 
-/* Style for the slide text */
 .slide-text {
 	display: flex;
 	justify-content: space-evenly;
@@ -249,15 +237,13 @@ h3 {
 	margin: 0;
 }
 
-/* Style for the testimonial section */
 .testimonial {
 	display: flex;
 	justify-content: center;
-	align-items: center; /* Vertically center align items */
+	align-items: center; 
     width: 100%;
 }
 
-/* Style for the testimonial image */
 .testimonial img {
 	border-radius: 50%;
 	width: 100px;
@@ -265,12 +251,10 @@ h3 {
     margin-bottom: 1rem;
 }
 
-/* Style for the testimonial info */
 .testimonial-info {
 	text-align: center;
 }
 
-/* Style for the arrow icons */
 .slide-arrows {
 	position: absolute;
 	top: 50%;
@@ -279,7 +263,6 @@ h3 {
 	font-size: 24px;
 }
 
-/* Style for the arrow icons */
 .slide-arrows i {
 	cursor: pointer;
 	background-color: #000;
@@ -289,16 +272,17 @@ h3 {
 	border-radius: 50%;
 }
 
-/* Style for the left arrow */
 .slide-arrows i:first-child {
 	float: left;
 	margin-left: -42px;
 }
 
-/* Style for the right arrow */
 .slide-arrows i:last-child {
 	float: right;
-	/* margin-right: 0; */
+}
+
+.read_full_story {
+	color: red;
 }
 
 /* footer styling */
@@ -315,7 +299,7 @@ footer {
 }
 
 h2 {
-    color: rgb(32, 57, 183);
+    color: rgb(31, 120, 255);
 }
 
 h4 {
